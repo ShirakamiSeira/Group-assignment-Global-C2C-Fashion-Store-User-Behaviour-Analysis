@@ -1,0 +1,21 @@
+Multicollinearity Test (VIF)
+               variable        vif
+              intercept 988.668777
+     productsListed_log   1.189416
+  socialNbFollowers_log   1.342914
+socialProductsLiked_log   1.183629
+     seniority_centered 162.916637
+  seniority_centered_sq 162.920589
+              is_female   1.003067
+
+Breusch-Pagan Test
+LM Statistic: 21570.236587
+LM p-value: 0
+F Statistic: 4597.339871
+F p-value: 0
+
+White Test
+LM Statistic: 23973.636730
+LM p-value: 0
+F Statistic: 1757.605325
+F p-value: 0

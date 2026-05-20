@@ -1,0 +1,11 @@
+               variable     n      mean  std_dev       min       max
+           productsSold 98913    0.0319   0.2313    0.0000    2.0000
+         productsListed 98913    0.0174   0.1309    0.0000    1.0000
+      socialNbFollowers 98913    3.2945   0.9944    3.0000   10.0000
+    socialProductsLiked 98913    1.7712   8.0766    0.0000   64.0000
+              seniority 98913 3063.7719 168.2986 2852.0000 3205.0000
+       productsSold_log 98913    0.0189   0.1332    0.0000    1.0986
+     productsListed_log 98913    0.0121   0.0907    0.0000    0.6931
+  socialNbFollowers_log 98913    1.4407   0.1632    1.3863    2.3979
+socialProductsLiked_log 98913    0.2826   0.7847    0.0000    4.1744
+              is_female 98913    0.7696   0.4211    0.0000    1.0000

@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              sold_rate   R-squared:                       0.332
+Model:                            OLS   Adj. R-squared:                  0.330
+Method:                 Least Squares   F-statistic:                     219.7
+Date:                Wed, 20 May 2026   Prob (F-statistic):          1.87e-181
+Time:                        22:26:59   Log-Likelihood:                -1949.4
+No. Observations:                1724   AIC:                             3911.
+Df Residuals:                    1718   BIC:                             3943.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                  -1.8540      0.543     -3.417      0.001      -2.917      -0.790
+socialNbFollowers_log       1.3019      0.045     28.839      0.000       1.213       1.390
+socialProductsLiked_log     0.0244      0.013      1.894      0.058      -0.001       0.050
+seniority_centered          0.0012      0.001      0.870      0.384      -0.002       0.004
+seniority_centered_sq     1.75e-05   1.92e-05      0.910      0.363   -2.02e-05    5.52e-05
+is_female                  -0.1619      0.046     -3.519      0.000      -0.252      -0.072
+==============================================================================
+Omnibus:                       21.887   Durbin-Watson:                   1.984
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               16.447
+Skew:                          -0.141   Prob(JB):                     0.000268
+Kurtosis:                       2.613   Cond. No.                     9.18e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 9.18e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
